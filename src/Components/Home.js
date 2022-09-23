@@ -27,10 +27,10 @@ const Home = () => {
     <center>
       <h1>Home</h1>
       <form onSubmit={submitHandler}>
-      <input type="text" name='username' value={username} placeholder="username" onChange={changeHandler}/> <br></br>
-      <input type="email" name='email' value={email}  placeholder="email" onChange={changeHandler}/><br></br>
-      <input type="password" name='password' value={password} placeholder="password" onChange={changeHandler}/><br></br>
-      <input type="passwoed" name='confirmPassword' value={confirmPassword} placeholder="password" onChange={changeHandler} /><br></br>
+      <input type="text" name='username' value={username} placeholder="username" onChange={changeHandler}/><br></br> <br></br>
+      <input type="email" name='email' value={email}  placeholder="email" onChange={changeHandler}/><br></br><br></br>
+      <input type="password" name='password' value={password} placeholder="password" onChange={changeHandler}/><br></br><br></br>
+      <input type="passwoed" name='confirmPassword' value={confirmPassword} placeholder="password" onChange={changeHandler} /><br></br><br></br>
       <input type="submit" name='submit' placeholder='submit' />
       </form>
     </center>  
