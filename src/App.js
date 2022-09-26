@@ -1,20 +1,13 @@
-import React, { useState } from 'react'
-import Home from './Components/Home'
-import About from './Components/About'
-import InputWithIcon from './Components/InputWithIcon'
+import React from 'react'
+import '../src/App.css'
+import ResponsiveNavbar from './Components/ResponsiveNavbar'
 
 const App = () => {
-  const[form, setForm] = useState("about");
-  console.log(form)
   return (
     <div>
-     {
-       form === "about" ? <About onSubmit={setForm}/> : null
-     }
-     {
-       form === "Home" ? <Home />: null
-     }
+      <ResponsiveNavbar />
     </div>
+
   )
 }
 
