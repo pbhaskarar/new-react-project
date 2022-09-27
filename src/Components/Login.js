@@ -7,11 +7,11 @@ import Checkbox from '@mui/material/Checkbox';
 import { deepPurple } from '@mui/material/colors';
 
 
-
 const Login = () => {
   const preventDefault = (event) => event.preventDefault();
   return (
-    <Grid>
+    <div className='loginBackgroundColor'>
+    <Grid >
       <Paper className='PaperStyle' elevation={10}>
     <Grid align="center">
     <Avatar sx={{ bgcolor: deepPurple[500] }}><LockOutlinedIcon /></Avatar>
@@ -40,6 +40,7 @@ const Login = () => {
     </Typography>
     </Paper>
     </Grid>
+    </div>
   )
 }
 

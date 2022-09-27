@@ -41,10 +41,17 @@
   }
 }
 
+
 .PaperStyle{
   padding: 20px;
   height: 70vh;
   width: 25%;
+  margin: 20px auto;
+}
+.PaperStyles{
+  padding: 20px;
+  height: 90vh;
+  width: 80%;
   margin: 20px auto;
 }
 .AvatarStyle{
@@ -54,6 +61,10 @@
  margin-bottom: 2rem;
 }
 
+/* // register page */
+.resi-style{
+  color: green;
+}
 @media(max-width:766px){
   .PaperStyle{
     width: 80%;
