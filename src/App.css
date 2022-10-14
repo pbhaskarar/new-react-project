@@ -65,8 +65,14 @@
 .resi-style{
   color: green;
 }
+.css-6hp17o-MuiList-root-MuiMenu-list{
+  background-color: blueviolet;
+}
 @media(max-width:766px){
   .PaperStyle{
     width: 80%;
+  }
+  .css-6hp17o-MuiList-root-MuiMenu-list{
+    background-color: blueviolet;
   }
 }
